@@ -37,44 +37,59 @@ This swarm is about:
 
 ## Communication
 
-`status channel (same as swarm id)`: [#status-keycard](https://get.status.im/chat/public/status-keycard)
-`sync frequency`: Weekly Sync, tuesday 11:00 AM Paris time
+
+[#status-keycard](https://get.status.im/chat/public/status-keycard)
+
+
+Weekly Sync, tuesday 11:00 AM Paris time
 
 Weekly meeting notes https://notes.status.im/BSmOfT4qSuWLLXS6AuxcXQ
 
 ## Research
 
 **Keycard applet**
+
 closed
 
 **Status software integration**
+
 closed
 
 ## Specification
 
 **Keycard applet**
+
 closed
 
 **Status software integration**
-Use cases for the Status integration 
+
+The specification for the Status integration is done
+
+The use cases for the Status integration are:
 1. sign transaction by tapping card + entering PIN
 2. login into account by tapping card and entering PIN
 3.  export of the whisper key from the card to the app (goal : not store the whisper private key in Flash at anay time on the app)
 4. export of the password used to encode the database from the card to the app 
 
+Specification consists of: 
+
 User flow wireframes
+
 https://docs.google.com/document/d/1w9GGtsAC8H3B563iRi52evOYMGNOfBlVh3Ay4aFuluc/edit
 
 Screens UX Flows in Figma
+
 https://bit.ly/2NdxoUB
 
 
 ## Implementation
 
 **Keycard applet**
+
 closed
 
 **Status software integration**
+
 Alpha stage: up to 28/02/2019
 Beta stage: 01/03/2019 (Beta success consists of functional availability of use cases 1-2-3-4)
 
