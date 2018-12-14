@@ -2,13 +2,14 @@
 id: #000-template
 title: Swarm Proposal
 status: research/specification/implementation/maintenance
-lead-contributor: @guylouis
+lead-contributor
+@guylouis
 contributors:
-    - Michele (@bitgamma)
-    - Andrea (@pilu)
-    - Dmitry (@dmitryn)
-    - xFn testing: Nastya (@nastya)
-    - xFn design: Denis (@denis-sharpyn)
+Michele @bitgamma
+Andrea @pilu
+Dmitry @dmitryn
+xFn testing: Nastya @nastya
+xFn design: Denis @denis-sharpyn
 
 budget:
 - actual: xxx
@@ -43,18 +44,18 @@ Weekly meeting notes https://notes.status.im/BSmOfT4qSuWLLXS6AuxcXQ
 
 ## Research
 
-Keycard applet
+**Keycard applet**
 closed
 
-Status software integration
+**Status software integration**
 closed
 
 ## Specification
 
-Keycard applet
+**Keycard applet**
 closed
 
-Status software integration
+**Status software integration**
 Use cases for the Status integration 
 1. sign transaction by tapping card + entering PIN
 2. login into account by tapping card and entering PIN
@@ -70,10 +71,10 @@ https://bit.ly/2NdxoUB
 
 ## Implementation
 
-Keycard applet
+**Keycard applet**
 closed
 
-Status software integration
+**Status software integration**
 Alpha stage: up to 28/02/2019
 Beta stage: 01/03/2019 (Beta success consists of functional availability of use cases 1-2-3-4)
 
