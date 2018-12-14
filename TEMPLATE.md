@@ -2,10 +2,14 @@
 id: #000-template
 title: Swarm Proposal
 status: research/specification/implementation/maintenance
-lead-contributor: 
+lead-contributor: @guylouis
 contributors:
-    -
-    -
+    - Michele (@bitgamma)
+    - Andrea (@pilu)
+    - Dmitry (@dmitryn)
+    - xFn testing: Nastya (@nastya)
+    - xFn design: Denis (@denis-sharpyn)
+
 budget:
 - actual: xxx
 - estimate: yyy
@@ -16,42 +20,66 @@ budget:
 
 ## Summary and Goal(s)
 
+We want to give Status users control over their private keys, and offer them the possibilty to store them in a air-gapped secure device. This kind of control is provided by hardware wallets, however there is no hardware wallet on the market today that integrates with mobile apps, and hardware wallets are quite expensive. 
+
+Javacard smartcards are a good platform to solve this issue: their inexpensive, provides  very high level of physical security (CC EAL5+), and are contactless (NFC) and thus work with Android apps. 
+
+Our goal is to:
+- manufacture such a smartcard, called Keycard,
+- standardize a protocol 'Keycard API' for integration of clients with smartcards securing access to crypto assets
+- propose an open source javacard applet 'Keycard applet'
+- integrate Keycard with Status app
+
+This swarm is about:
+- `Keycard applet` 
+- `Status software integration` 
+
 ## Communication
-(required)
-`status channel (same as swarm id)`: [#000-foobar](https://get.status.im/chat/public/000-foobar)
-`sync frequency`: Weekly Sync
+
+`status channel (same as swarm id)`: [#status-keycard](https://get.status.im/chat/public/status-keycard)
+`sync frequency`: Weekly Sync, tuesday 11:00 AM Paris time
+
+Weekly meeting notes https://notes.status.im/BSmOfT4qSuWLLXS6AuxcXQ
 
 ## Research
-(required) 
-`timebox research (approx)` 
 
-(optional)
-`eips`, `competitors`, `existing research`, `wireframes`, `spike (PoC)`
+`Keycard applet`
+closed
+
+`Status software integration`
+closed
 
 ## Specification
 
-> do after `Research`
+`Keycard applet`
+closed
 
-(required)
-`timebox specification (approx)`
+`Status software integration`
+Use cases for the Status integration 
+1. sign transaction by tapping card + entering PIN
+2. login into account by tapping card and entering PIN
+3.  export of the whisper key from the card to the app (goal : not store the whisper private key in Flash at anay time on the app)
+4. export of the password used to encode the database from the card to the app 
 
-(optional)
-`user stories`, `architecture`, `designs`, `PoC`
+User flow wireframes
+https://docs.google.com/document/d/1w9GGtsAC8H3B563iRi52evOYMGNOfBlVh3Ay4aFuluc/edit
+
+Screens UX Flows in Figma
+https://bit.ly/2NdxoUB
+
 
 ## Implementation
 
-(required)
-`timebox implementation (approx)`
+`Keycard applet`
+closed
 
-> do after `Specification`
+`Status software integration`
+Alpha stage: up to 28/02/2019
+Beta stage: 01/03/2019
 
-> All swarm contributors should test and break the implementation, especially developers
+Beta success consists of functional availability of use cases 1-2-3-4
 
-(required)
 `document progress`
-
-(optional)
-`townhall demo`
 
 ## Maintenance
 
